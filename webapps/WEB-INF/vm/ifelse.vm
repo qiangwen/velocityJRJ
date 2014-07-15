@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>ifelse example</title>
+    </head>
+	#set($age=12)
+	#set($age=14)
+	#macro(sum $age1 $age2)
+		$age1+$age2
+	#end
+    <body>
+       #if(${condition})
+		$name1 age is $sum($age $age)
+		#else
+		$name2 age is $sum($age $age)
+		#end
+    </body>
+</html>

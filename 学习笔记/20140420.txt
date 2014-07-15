@@ -1,0 +1,5 @@
+1、配置springmvc时，启动springmvc容器时会自动加载webinf下的servletname-servlet.xml，
+在web.xml中全局的contextloaderListener与spring启动中的contextloader是不同的，若spring容器启动时
+加载的的xml不是默认的话需要在该servlet下手动添加要加载的xml文件
+2、spring3以后就不存在spring.jar，而是通过加载不同的jar包来实现spring的功能
+3、在eclipse中需要把编译的class文件编译只webinf/classes下，不然容器启动后无法加载到。

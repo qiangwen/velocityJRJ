@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>userInfoList</title>
+    </head>
+
+    <body>
+        <h2>USERINFO LIST</h2>
+        <table width="600" border="1" cellspacing="1" cellpadding="1">
+            <tr bgcolor="#999999">
+                <th>username</th>
+                <th>email</th>
+                <th>age</th>
+            </tr>
+        #foreach($user in $msglist)
+            <tr>
+                <td>
+                    ${user}
+                </td>
+                <td>${user}</td>
+                <td>${user}</td>
+                <
+            </tr>
+        #end
+        </table>
+    </body>
+</html>
